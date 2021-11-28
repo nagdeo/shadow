@@ -1,7 +1,7 @@
-function shadow(options){
+function shadowimages(options){
     let imgs= document.querySelectorAll("shadow");
     if(options.shadow_type==="hard"){
-        options.shadow_type='10px';
+        options.shadow_type='0px';
     }else{ 
          options.shadow_type='0px';
      }
@@ -13,4 +13,4 @@ function shadow(options){
         }
      });
 }
-module.exports.shadow=shadow;
+module.exports.shadowimages=shadowimages;
