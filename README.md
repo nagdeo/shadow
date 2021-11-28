@@ -1,18 +1,17 @@
-# shadow
 # what is this?
 
 Get perfect shadows every time for the non-designer.
 
 # Installation
 
- npm i shadow --save
+ npm i shadowimages --save
 
 Then...
 
 ...
-import { shadow } from 'shadow';
+import { shadowimages } from 'shadowImages';
 
-shadow({
+shadowimages({
     shadow_type: 'soft',
     padding: false
 });
